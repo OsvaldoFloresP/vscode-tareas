@@ -88,7 +88,7 @@ int main() {
 
     } while (toupper(continuar) == 'S'); // toupper convierte la letra a mayúscula para aceptar 's' o 'S'
 
-    cout << "Gracias por utilizar el sistema SIG-Conecta. ¡Hasta pronto!\n";
+    cout << "Gracias por utilizar el sistema SIG-Conecta. Hasta pronto\n";
 
     return 0;
 }
