@@ -25,10 +25,11 @@ int main() {
     mostrarBienvenida();
 
     do {
-        cout << "\n--- MENU PRINCIPAL SIG-Conecta v2.0 ---\n";
+        cout << "------------------------- MENU PRINCIPAL SIG-Conecta v2.0 -------------------------\n";
         cout << "1. Registrar ingreso\n";
         cout << "2. Consultar disponibilidad de equipos\n";
         cout << "3. Salir del sistema\n";
+        cout << "===================================================================================\n";
         cout << "Seleccione una opcion: ";
         cin >> opcion;
 
@@ -111,10 +112,10 @@ void mostrarBienvenida() {
     cout << "===================================================================================\n";
     cout << "                 Bienvenido al Sistema de Registro SIG-Conecta v2.0                \n";
     cout << "-----------------------------------------------------------------------------------\n";
-    cout << "                       REGLAS DE USO DEL LABORATORIO:                              \n";
-    cout << "                   1. No introducir alimentos ni bebidas.                          \n";
-    cout << "             2. El uso de los equipos es estrictamente educativo.                  \n";
-    cout << "             3. Respetar el horario de operacion (08:00 - 20:00).                  \n";
+    cout << "                          REGLAS DE USO DEL LABORATORIO:                           \n";
+    cout << "                      1. No introducir alimentos ni bebidas.                       \n";
+    cout << "               2. El uso de los equipos es estrictamente educativo.                \n";
+    cout << "               3. Respetar el horario de operacion (08:00 - 20:00).                \n";
     cout << "===================================================================================\n";
 }
 
